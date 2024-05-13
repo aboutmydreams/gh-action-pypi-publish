@@ -75,7 +75,7 @@ jobs:
 > This will make your workflows more secure and better reproducible, saving you
 > from sudden and unpleasant surprises.
 
-Other indices that support trusted publishing can also be used, like TestPyPI:
+Default upload repository-url is `https://upload.pypi.org/legacy/` Other indices that support trusted publishing can also be used, like TestPyPI:
 
 ```yaml
 - name: Publish package distributions to TestPyPI
